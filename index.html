@@ -25,23 +25,8 @@
     const CardTitle = ({children,style}) => <div style={style}>{children}</div>;
     const CardDescription = ({children,style}) => <div style={style}>{children}</div>;
 
-    import React from "react";
-
-const data = null;
-const sendToAgent = () => {};
-const widgetLog = () => {};
-
-const Card = ({ children, style }) => <div style={style}>{children}</div>;
-const CardHeader = ({ children, style }) => <div style={style}>{children}</div>;
-const CardContent = ({ children, style }) => (
-  <div style={style}>{children}</div>
-);
-const CardTitle = ({ children, style }) => <div style={style}>{children}</div>;
-const CardDescription = ({ children, style }) => (
-  <div style={style}>{children}</div>
-);
-
-export default function ArenaBreakoutStreamStats() {
+   
+  function ArenaBreakoutStreamStats() {
   const [sessionStartTime] = React.useState(Date.now());
   const [elapsedSeconds, setElapsedSeconds] = React.useState(0);
   const [stats, setStats] = React.useState({
